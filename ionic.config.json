@@ -1,0 +1,7 @@
+{
+  "name": "SaudePet",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

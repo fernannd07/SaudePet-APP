@@ -1,0 +1,52 @@
+/*Este menú foi utilizado para redefinir o tamnho da font utilizado e logo seguida a dimenção  para fazer diminuir e colocar em circulo. */
+ion-toolbar{
+
+    --background: #f5f5f5;
+    
+  ion-button{
+
+    text-transform: initial;
+    font-size: 17px;    
+ }
+}
+
+ion-content { 
+    
+    --background: #f5f5f5;
+
+    #header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        h1{
+            font-weight: 700;
+            font-size: 26px;
+            color: #010101;
+            margin-bottom: 8%;
+        }
+        
+        form{
+            margin-top: 15%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+
+        ion-button{
+            margin-top: 35px;
+            height: 48px;
+            font-size: 18px;
+            text-transform: initial;
+            border-radius: 50px;
+            box-shadow: 1px 8px 8px rgba(0,0,0,0.5);
+            --box-shadow: none;
+        }   
+        pa{
+           text-align: center;
+           color: #b6b6b6;
+           margin-top: 40px; 
+        }     
+    }
+}
+
+
